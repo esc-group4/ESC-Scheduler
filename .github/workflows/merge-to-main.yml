@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt
       - name: Running unit tests
         run: |
-        pytest
+          python3 -m pytest
 
   run-pylint:
     needs: run-unit-tests # ensure unit tests are successful first
