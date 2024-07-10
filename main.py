@@ -1,6 +1,5 @@
 # entrypoint for docker and cron, everytime it runs, it ACCESS DB, check records, if fulfill conditions, run send_email() and send_message()
 
-
 # TODO : Is there a need to queue emails/whatsapp messages? Is there an effective way to queue emails/whatsapp messages? will a message queue be helpful in this scenario or overkill?
 # TODO : Will need to update database once emails/whatsapp messages are sent
 
