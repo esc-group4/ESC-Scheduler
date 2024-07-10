@@ -1,1 +1,2 @@
-#to be implemented
+# TODO : IMPLEMENT BASIC DOCKERISATION
+
