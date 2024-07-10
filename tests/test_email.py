@@ -4,4 +4,4 @@ from email_smtp import eg_func1
 
 
 def test1_answer():
-    assert test1_funct(4) == 5
+    assert eg_func1.test1_funct(4) == 5
