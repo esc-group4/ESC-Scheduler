@@ -4,4 +4,4 @@ from message import eg_func2
 
 
 def test2_answer():
-    assert eg_func2.test2_funct(4) == 6
+    assert eg_func2.test2_funct(5) == 7
