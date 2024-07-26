@@ -1,4 +1,1 @@
 .env
-.pytest_cache
-__init__.py
-__pycache__/
