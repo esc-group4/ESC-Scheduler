@@ -1,4 +1,6 @@
 import QRCode from 'qrcode';
+import Jimp from 'jimp';
+import qrcodeReader from 'qrcode-reader';
 
 // Function to generate a QR code and save it to a file
 export async function generateQRCode(data, filePath) {
